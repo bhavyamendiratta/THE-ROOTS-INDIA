@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>THE ROOTS INDIA</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <!-- Google fonts - Roboto + Roboto Slab-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700%7CRoboto:400,700,300">
+    <!-- owl carousel-->
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.css">
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.css">
+    <!-- animate.css-->
+    <link rel="stylesheet" href="vendor/animate.css/animate.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Leaflet CSS - For the map-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css">
+    <!-- Favicon-->
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+ <style type="text/css">
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  
+}
+
+.right {
+  right: 0;
+  
+}
+	</style>
+  </head>
+  <body>
+    <!-- Reference item-->
+    <!-- navbar-->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container"><a href="#intro" class="navbar-brand scrollTo">THE ROOTS INDIA</a>
+          <button type="button" data-toggle="collapse" data-target="#navbarcollapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><span class="fa fa-bars"></span></button>
+          <div id="navbarcollapse" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a href="#intro" class="nav-link link-scroll">Home</a></li>
+              <li class="nav-item"><a href="#about" class="nav-link link-scroll">Work</a></li>
+              <li class="nav-item"><a href="#services" class="nav-link link-scroll">Journey</a></li>
+              <li class="nav-item"><a href="#testimonials" class="nav-link link-scroll">Blog</a></li>
+              <li class="nav-item"><a href="#references" class="nav-link link-scroll">Gallery</a></li>
+              <li class="nav-item"><a href="#customers" class="nav-link link-scroll">Careers</a></li>
+              <li class="nav-item"><a href="#contact" class="nav-link link-scroll">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Intro Image-->
+    <div class="split left"><br><br><br><br>
+  <h2 class="component_heading">Modules</h2>
+                       
+                        <ul class="list">
+                            
+                                <li><a href="/best-actors/1/">FOUNDATION COURSE (WEEKEND BATCH)</a></li>
+                            
+                                <li><a href="/best-actors/2/">ADVANCE TRAINING (WEEKEND BATCH)</a></li>
+                            
+                                <li><a href="/best-actors/3/">CHILDREN’S WORKSHOP</a></li>
+                                 <li><a href="/best-actors/3/">NONE</a></li>
+                            
+                           
+                        </ul>
+  
+</div>
+
+<div class="split right"><br><br><br><br>
+   <div id="aside-right component" class="col-cell">
+                        <h2 class="component_heading wow fadeInUp">Theatre and Acting Studio</h2>
+                        
+                        <div class="introText">
+                            <p>Theatre is intended to convey a message. It is meant for education. Similarly, The Roots India always strives to deliver relevant content. Our vision is to make theatre accessible to everyone. <br />One of the aspects of Theatre is acting and it is intimidating that in India acting seems to be limited to Bollywood only but our modules makes the actor capable of exploring not only Bollywood but also performing and visual arts. </p>
+
+<p>Our modules are designed dealing the intricacies of acting from body to speech, scene studies to direction, amongst others. Our modules are designed for people of different age groups from all walks of life with a universal passion for theatre.</p>
+                        </div></div>
+</div>
+
+    <!-- JavaScript files-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+    <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="vendor/waypoints/lib/jquery.waypoints.min.js"></script>
+    <script src="vendor/jquery.counterup/jquery.counterup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"> </script>
+    <script src="js/front.js"></script>
+    <script type="text/javascript">
+	var min_w = 300;
+var vid_w_orig;
+var vid_h_orig;
+
+$(function() {
+
+    vid_w_orig = parseInt($('video').attr('width'));
+    vid_h_orig = parseInt($('video').attr('height'));
+
+    $(window).resize(function () { fitVideo(); });
+    $(window).trigger('resize');
+
+});
+
+function fitVideo() {
+
+    $('#video-viewport').width($('.fullsize-video-bg').width());
+    $('#video-viewport').height($('.fullsize-video-bg').height());
+
+    var scale_h = $('.fullsize-video-bg').width() / vid_w_orig;
+    var scale_v = $('.fullsize-video-bg').height() / vid_h_orig;
+    var scale = scale_h > scale_v ? scale_h : scale_v;
+
+    if (scale * vid_w_orig < min_w) {scale = min_w / vid_w_orig;};
+
+    $('video').width(scale * vid_w_orig);
+    $('video').height(scale * vid_h_orig);
+
+    $('#video-viewport').scrollLeft(($('video').width() - $('.fullsize-video-bg').width()) / 2);
+    $('#video-viewport').scrollTop(($('video').height() - $('.fullsize-video-bg').height()) / 2);
+
+};
+</script>
+  </body>
+</html>
