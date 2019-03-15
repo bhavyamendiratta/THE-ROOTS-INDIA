@@ -1,3 +1,40 @@
+<?php
+
+
+  if(isset($_POST['send'])){
+      $name=$_POST['name'];
+      
+      $email=$_POST['email'];
+      $subject=$_POST['subject'];
+      $message=$_POST['message'];
+        require 'src/PHPMailer.php';
+        require 'src/SMTP.php';
+          $mail = new PHPMailer\PHPMailer\PHPMailer;
+          $mail->IsSMTP(); // enable SMTP
+          $mail->SMTPDebug = 2; // debugging: 1 = errors and messages, 2 = messages only
+          $mail->SMTPAuth = true; // authentication enabled
+          $mail->SMTPSecure = 'tls'; // secure transfer enabled REQUIRED for Gmail
+          $mail->Host = "smtp.gmail.com";
+          $mail->Port = 587; // or 587
+          $mail->IsHTML(true);
+          $mail->Username = "noreplyprabhjot@gmail.com";
+          $mail->Password = "NOREPLYprabhjot";
+          $mail->SetFrom("noreplyprabhjot@gmail.com","prabhjotsingh.co.in");
+          $mail->Subject = $name;
+          $mail->Body ="<h4>First Name: $name</h4><br>
+                        <h4>Email: $email</h4><br>
+                        <h4>Subject: $subject</h4><br>
+                        <h4>Message: $message</h4>";
+          $mail->AddAddress("prabhjotsinghahluwalia@gmail.com","Prabhjot Singh");
+           if(!$mail->Send()) {
+              echo "Mailer Error: " . $mail->ErrorInfo;
+           }
+          header("location:index.php"); 
+          }
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -72,7 +109,7 @@
           <li><a href="#services">Gallery</a></li>
           <li><a href="#contact">Careers</a></li>
           <li><a href="#contact">Contact Us</a></li>
-          <li><a href="#contact">Login/Support us</a></li>
+
         </ul>
       </nav><!-- .main-nav -->
       
@@ -266,11 +303,15 @@
     <section id="why-us" class="wow fadeIn">
       <div class="container">
         <header class="section-header">
-          <h3>Why choose us?</h3>
-          <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p>
+          <h3>Journey</h3>
+          <p>Theatre, one of America’s leading not-for-profit theatres, is a nationally recognized performing arts company lead by Artistic Director Richard Coxand Managing Director Bradley Grosh. Home to a Resident Company of actors, the Theatre creates a wide-ranging repertoire and innovative productions of classics, neglected modern plays, and premieres. Theatre All New, the initiative to commission and develop new work year round, features the Theatre All New Festival each season presenting workshops and readings of new plays and musicals in process
+.
+A recipient of the Special Tony Award for Outstanding Regional Theatre, the Alley has brought productions to Broadway, 40 American cities including New York’s Lincoln Center and internationally to Berlin, Paris, and St. Petersburg throughout its 69 year history.
+
+Theatre underwent a $46.5 million building renovation in 2014-2015 season, the first major improvements since the building opened in 1968. With more than 500 performances in 2015-2016, the Alley will produce more performances than all other performing arts organizations in the Houston Theater District combined.</p>
         </header>
 
-        <div class="row row-eq-height justify-content-center">
+        <!--<div class="row row-eq-height justify-content-center">
 
           <div class="col-lg-4 mb-4">
             <div class="card wow bounceInUp">
@@ -305,7 +346,7 @@
             </div>
           </div>
 
-        </div>
+        </div>-->
 
         <div class="row counters">
 
@@ -341,7 +382,7 @@
       <div class="container">
 
         <header class="section-header">
-          <h3 class="section-title">Our Portfolio</h3>
+          <h3 class="section-title">Blog</h3>
         </header>
 
         <div class="row">
@@ -560,7 +601,7 @@
     <!--==========================
       Team Section
     ============================-->
-    <section id="team">
+    <!--<section id="team">
       <div class="container">
         <div class="section-header">
           <h3>Team</h3>
@@ -644,7 +685,7 @@
         </div>
 
       </div>
-    </section><!-- #team -->
+    </section> #team -->
 
     <!--==========================
       Clients Section
@@ -654,8 +695,8 @@
       <div class="container">
 
         <div class="section-header">
-          <h3>Our CLients</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque dere santome nida.</p>
+          <h3>Collaborations</h3>
+          <p></p>
         </div>
 
         <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
@@ -736,22 +777,22 @@
             <div class="row">
               <div class="col-md-5 info">
                 <i class="ion-ios-location-outline"></i>
-                <p>A108 Adam Street, NY 535022</p>
+                <p>Your Address</p>
               </div>
               <div class="col-md-4 info">
                 <i class="ion-ios-email-outline"></i>
-                <p>info@example.com</p>
+                <p>Your Email ID</p>
               </div>
               <div class="col-md-3 info">
                 <i class="ion-ios-telephone-outline"></i>
-                <p>+1 5589 55488 55</p>
+                <p>Your Phone number</p>
               </div>
             </div>
 
             <div class="form">
               <div id="sendmessage">Your message has been sent. Thank you!</div>
               <div id="errormessage"></div>
-              <form action="" method="post" role="form" class="contactForm">
+              <form id="contact-form" method="post" role="form" class="contactForm">
                 <div class="form-row">
                   <div class="form-group col-lg-6">
                     <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
@@ -770,7 +811,8 @@
                   <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                   <div class="validation"></div>
                 </div>
-                <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
+                <div class="text-center"><button type="submit" title="Send Message" name="send">Send Message
+                </button></div>
               </form>
             </div>
           </div>
@@ -791,30 +833,18 @@
         <div class="row">
 
           <div class="col-lg-4 col-md-6 footer-info">
-            <h3>NewBiz</h3>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+            <h3></h3>
+            <p></p>
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Terms of service</a></li>
-              <li><a href="#">Privacy policy</a></li>
-            </ul>
+            <h4></h4>
+            
           </div>
 
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h4>Contact Us</h4>
-            <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
-            </p>
+            
+            
 
             <div class="social-links">
               <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
@@ -826,13 +856,7 @@
 
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit"  value="Subscribe">
-            </form>
-          </div>
+          
 
         </div>
       </div>
@@ -840,17 +864,9 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>NewBiz</strong>. All Rights Reserved
+        &copy; Copyright <strong>The Roots India</strong>. All Rights Reserved
       </div>
-      <div class="credits">
-        <!--
-          All the links in the footer should remain intact.
-          You can delete the links only if you purchased the pro version.
-          Licensing information: https://bootstrapmade.com/license/
-          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=NewBiz
-        -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
+      
     </div>
   </footer><!-- #footer -->
 
