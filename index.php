@@ -45,11 +45,11 @@
   <meta content="" name="description">
 
   <!-- Favicons -->
-  <link href="img/favicon.png" rel="icon">
+  <link href="logo.jpg" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=roboto:300,300i,400,400i,700,700i|Roboto:300,400,500,700" rel="stylesheet">
 
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -64,12 +64,7 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-    Theme Name: NewBiz
-    Theme URL: https://bootstrapmade.com/newbiz-bootstrap-business-template/
-    Author: BootstrapMade.com
-    License: https://bootstrapmade.com/license/
-  ======================================================= -->
+
 </head>
 
 <body>
@@ -88,27 +83,17 @@
 
       <nav class="main-nav float-right d-none d-lg-block">
         <ul>
-          <li class="active"><a href="#intro">Home</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li class="drop-down"><a href="">Work</a>
-            <ul>
-              <li><a href="#">Training and Enhancement</a></li>
-              <li><a href="#">Theatre and Acting Studio</a>
-          
-                  
-              </li>
-              <li><a href="#">Creative Content Studio</a></li>
-              <li><a href="#">Platform for Artists</a></li>
-              <li><a href="#">In-house Productions</a></li>
-              <li><a href="#">The Roots Casting</a></li>
-            </ul>
+          <li class="active"><a href="#intro"><b>Home</b></a></li>
+          <li><a href="#about"><b>About Us</b></a></li>
+          <li><a href="#services"><b>Work</b></a>
+           
           </li>
+         
+          <li><a href="journey.html"><b>Journey</b></a></li>
           
-          <li><a href="#portfolio">Journey</a></li>
-          <li><a href="#team">Blog</a></li>
-          <li><a href="#services">Gallery</a></li>
-          <li><a href="#contact">Careers</a></li>
-          <li><a href="#contact">Contact Us</a></li>
+          <li><a href="#portfolio"><b>Gallery</b></a></li>
+          
+          <li><a href="#contact"><b>Contact Us</b></a></li>
 
         </ul>
       </nav><!-- .main-nav -->
@@ -123,13 +108,13 @@
     <div class="container">
 
       <div class="intro-img">
-        <!--eNTER AND IMAGE HERE -->
+       <div style="max-height:30%; max-width:30%;"></div>
       </div>
 
       <div class="intro-info">
-        <h2>We provide<br><span>platform</span><br>for your talent!</h2>
+        <h2 >Explore   Experience   Experiment   Express   Empower</h2>
         <div>
-          <a href="#about" class="btn-get-started scrollto">Get Started</a>
+          <a href="#about" class="btn-get-started scrollto">Register</a>
           <a href="#services" class="btn-services scrollto">Our Services</a>
         </div>
       </div>
@@ -147,50 +132,23 @@
 
         <header class="section-header">
           <h3>Welcome</h3>
-          <p>THE ROOTS IS AN INITIATIVE WHICH PROVIDES A PLATFORM FOR CREATIVE REPRESENTATION OF EMOTIONS THROUGH ART. IT AIMS AT BUILDING AN ALTERNATIVE CHANNEL FREE FROM THE ROUTINIED SOCIAL STAGNANCY, MAKING MINDS IMAGINE.</p>
+          
         </header>
 
         <div class="row about-container">
 
           <div class="col-lg-6 content order-lg-1 order-2">
-            <p>
-              IT NOT ONLY PROMOTES ALL ART FORMS BUT ALSO VALIDATES THE ARTIST AND HIS/HER EXPRESSION. THE ROOTS THEREBY EXTENDS ITS VISION TO MAKE A CHANGE IN PEOPLE’S LIFE USING THEATRICS, EXPLORING THE REALM OF THE CORPORATE AND HAVING WORK EXPERIENCE WITH DIFFERENT ACADEMIC INSTITUTIONS, THEATRE GROUPS AND COMPANIES. IMPLICATING THE KEY OF FIVE E’S- EXPERIMENT, EXPLORE, EXPERIENCE, EXPRESS AND EMPOWER- IT DELVES INTO THE INNER SELF OF A PROFESSIONAL TO ACCOMPLISH THE OUTER, STRENGTHENING THE LEARNING AND THE CONSEQUENT GROWTH OF INDIVIDUAL(S).
+            <p>The Roots is an initiative which provides a platform for creative representation of emotions through art.It aims at building an alternative channel free from the routinied social stagnancy, making minds imagine.
+              It not only promotes all art forms but also validates the artist and his/her expression. The roots thereby extends its vision to make a change in people's life using theatrics, exploring the realm of the corporate and having work experience with different academic institutions,theatre groups and companies. Implicating the key of five E's- Experiment, Explore, Experience, Express and Empower-It delves into the inner self of a professional to accomplish the outer, strengthening the learning and the consequent growth of individuals.
             </p>
 
-            <div class="icon-box wow fadeInUp">
-              <div class="icon"><i class="fa fa-shopping-bag"></i></div>
-              <h4 class="title"><a href="">Explore</a></h4>
-              <!--<p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>-->
-            </div>
-
-            <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
-              <div class="icon"><i class="fa fa-photo"></i></div>
-              <h4 class="title"><a href="">Experience</a></h4>
-              <!--<p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>-->
-            </div>
-
-            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
-              <div class="icon"><i class="fa fa-bar-chart"></i></div>
-              <h4 class="title"><a href="">Experiment</a></h4>
-              <!--<p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>-->
-            </div>
-            <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
-              <div class="icon"><i class="fa fa-photo"></i></div>
-              <h4 class="title"><a href="">Express</a></h4>
-              <!--<p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>-->
-            </div>
-
-            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
-              <div class="icon"><i class="fa fa-bar-chart"></i></div>
-              <h4 class="title"><a href="">Empower</a></h4>
-              <!--<p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>-->
-            </div>
+            
 
 
           </div>
 
           <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
-            <img src="img/about-img.svg" class="img-fluid" alt="">
+            <img src="logo.jpg" class="img-fluid" alt="" height="300px" width="300px">
           </div><!--
         </div>
 
@@ -229,7 +187,7 @@
           
         </div>
 
-      </div>
+      
     </section><!-- #about -->
 
     <!--==========================
@@ -239,7 +197,7 @@
       <div class="container">
 
         <header class="section-header">
-          <h3>Services</h3>
+          <h3>Work</h3>
           <!--<p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p>-->
         </header>
 
@@ -248,30 +206,30 @@
           <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon"><i class="ion-ios-analytics-outline" style="color: #ff689b;"></i></div>
-              <h4 class="title"><a href="">Training and Enhancement</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+              <h4 class="title"><a href="service/tre.html">Training and Enhancement</a></h4>
+              <p class="description"></p>
             </div>
           </div>
           <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon"><i class="ion-ios-bookmarks-outline" style="color: #e9bf06;"></i></div>
-              <h4 class="title"><a href="">Theatre and Acting Studio</a></h4>
-              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+              <h4 class="title"><a href="service/tas.html">Theatre and Acting Studio</a></h4>
+              <p class="description"></p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon"><i class="ion-ios-paper-outline" style="color: #3fcdc7;"></i></div>
-              <h4 class="title"><a href="">Creative Content Studio</a></h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+              <h4 class="title"><a href="service/ccs.html">Creative Content Studio</a></h4>
+              <p class="description"></p>
             </div>
           </div>
           <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon"><i class="ion-ios-speedometer-outline" style="color:#41cf2e;"></i></div>
-              <h4 class="title"><a href="">Platform for Artists</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+              <h4 class="title"><a href="service/pa.html">Platform for Artists</a></h4>
+              <p class="description"></p>
             </div>
           </div>
 
@@ -279,15 +237,15 @@
           <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon"><i class="ion-ios-world-outline" style="color: #d6ff22;"></i></div>
-              <h4 class="title"><a href="">In-house Productions</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+              <h4 class="title"><a href="service/ihp.html">In-house Productions</a></h4>
+              <p class="description"></p>
             </div>
           </div>
           <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon"><i class="ion-ios-clock-outline" style="color: #4680ff;"></i></div>
-              <h4 class="title"><a href="">The Roots Casting</a></h4>
-              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+              <h4 class="title"><a href="service/trc.html">The Roots Casting</a></h4>
+              <p class="description"></p>
             </div>
           </div>
        
@@ -299,7 +257,7 @@
 
     <!--==========================
       Why Us Section
-    ============================-->
+    ============================--><!--
     <section id="why-us" class="wow fadeIn">
       <div class="container">
         <header class="section-header">
@@ -311,7 +269,7 @@ A recipient of the Special Tony Award for Outstanding Regional Theatre, the Alle
 Theatre underwent a $46.5 million building renovation in 2014-2015 season, the first major improvements since the building opened in 1968. With more than 500 performances in 2015-2016, the Alley will produce more performances than all other performing arts organizations in the Houston Theater District combined.</p>
         </header>
 
-        <!--<div class="row row-eq-height justify-content-center">
+        <div class="row row-eq-height justify-content-center">
 
           <div class="col-lg-4 mb-4">
             <div class="card wow bounceInUp">
@@ -347,7 +305,7 @@ Theatre underwent a $46.5 million building renovation in 2014-2015 season, the f
           </div>
 
         </div>-->
-
+<!--
         <div class="row counters">
 
           <div class="col-lg-3 col-6 text-center">
@@ -373,7 +331,7 @@ Theatre underwent a $46.5 million building renovation in 2014-2015 season, the f
         </div>
 
       </div>
-    </section>
+    </section>-->
 
     <!--==========================
       Portfolio Section
@@ -382,17 +340,12 @@ Theatre underwent a $46.5 million building renovation in 2014-2015 season, the f
       <div class="container">
 
         <header class="section-header">
-          <h3 class="section-title">Blog</h3>
+          <h3 class="section-title">Gallery</h3>
         </header>
 
         <div class="row">
           <div class="col-lg-12">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
-            </ul>
+           
           </div>
         </div>
 
@@ -400,13 +353,13 @@ Theatre underwent a $46.5 million building renovation in 2014-2015 season, the f
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="img/portfolio/app1.jpg" class="img-fluid" alt="">
+              <img src="website/adhyyan/4.jpeg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#">App 1</a></h4>
-                <p>App</p>
+                <h4><a href="adhyyan.html">Adhyyan School</a></h4>
+                
                 <div>
-                  <a href="img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                  
+                  
                 </div>
               </div>
             </div>
@@ -414,13 +367,13 @@ Theatre underwent a $46.5 million building renovation in 2014-2015 season, the f
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
             <div class="portfolio-wrap">
-              <img src="img/portfolio/web3.jpg" class="img-fluid" alt="">
+              <img src="website/bp/3.jpeg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#">Web 3</a></h4>
-                <p>Web</p>
+                <h4><a href="bp.html">Blueprint Publications</a></h4>
+                
                 <div>
-                  <a href="img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                  
+                  
                 </div>
               </div>
             </div>
@@ -428,13 +381,13 @@ Theatre underwent a $46.5 million building renovation in 2014-2015 season, the f
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
-              <img src="img/portfolio/app2.jpg" class="img-fluid" alt="">
+              <img src="website/ey/2.jpeg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#">App 2</a></h4>
-                <p>App</p>
+                <h4><a href="ey.html">Ernst and Young</a></h4>
+                
                 <div>
-                  <a href="img/portfolio/app2.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                 
+                  
                 </div>
               </div>
             </div>
@@ -442,13 +395,13 @@ Theatre underwent a $46.5 million building renovation in 2014-2015 season, the f
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="img/portfolio/card2.jpg" class="img-fluid" alt="">
+              <img src="website/ge/3.jpeg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#">Card 2</a></h4>
-                <p>Card</p>
+                <h4><a href="ge.html">General Electronics</a></h4>
+                
                 <div>
-                  <a href="img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                 
+                  
                 </div>
               </div>
             </div>
@@ -456,13 +409,26 @@ Theatre underwent a $46.5 million building renovation in 2014-2015 season, the f
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
             <div class="portfolio-wrap">
-              <img src="img/portfolio/web2.jpg" class="img-fluid" alt="">
+              <img src="website/pwc/2.jpeg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#">Web 2</a></h4>
-                <p>Web</p>
+                <h4><a href="pwc.html">PriceWater House Coopers</a></h4>
+                
                 <div>
-                  <a href="img/portfolio/web2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 2" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                  
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+           <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <img src="website/ba/4.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="ba.html">Bajaj Allianz</a></h4>
+               
+                <div>
+              
+                  
                 </div>
               </div>
             </div>
@@ -470,59 +436,24 @@ Theatre underwent a $46.5 million building renovation in 2014-2015 season, the f
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
-              <img src="img/portfolio/app3.jpg" class="img-fluid" alt="">
+              <img src="website/med/4.jpeg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#">App 3</a></h4>
-                <p>App</p>
+                <h4><a href="med.html">Media</a></h4>
+               
                 <div>
-                  <a href="img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                  
+                  
                 </div>
               </div>
             </div>
           </div>
+          
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="img/portfolio/card1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4><a href="#">Card 1</a></h4>
-                <p>Card</p>
-                <div>
-                  <a href="img/portfolio/card1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
+          
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card" data-wow-delay="0.1s">
-            <div class="portfolio-wrap">
-              <img src="img/portfolio/card3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4><a href="#">Card 3</a></h4>
-                <p>Card</p>
-                <div>
-                  <a href="img/portfolio/card3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
+          
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.2s">
-            <div class="portfolio-wrap">
-              <img src="img/portfolio/web1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4><a href="#">Web 1</a></h4>
-                <p>Web</p>
-                <div>
-                  <a href="img/portfolio/web1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 1" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
+          
 
         </div>
 
@@ -532,7 +463,7 @@ Theatre underwent a $46.5 million building renovation in 2014-2015 season, the f
     <!--==========================
       Clients Section
     ============================-->
-    <section id="testimonials" class="section-bg">
+   <section id="testimonials" class="section-bg">
       <div class="container">
 
         <header class="section-header">
@@ -545,49 +476,59 @@ Theatre underwent a $46.5 million building renovation in 2014-2015 season, the f
             <div class="owl-carousel testimonials-carousel wow fadeInUp">
     
               <div class="testimonial-item">
-                <img src="img/testimonial-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
+                <img src="ss.jpeg" class="testimonial-img" alt="">
+                <h3>Sania Saifi</h3>
+                <h4>Poet and Author</h4>
                 <p>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  Learning from Prabhjot Sir has been so much fun and creative since the very
+beginning. He gives much space to experiments that the artist working with
+him feels liberated. I've learned alot on both personal and professional levels
+from him and would like to keep learning more and more. He has given a 
+better direction to me as an Artist through his own unique way to looking at
+things.
                 </p>
               </div>
     
               <div class="testimonial-item">
-                <img src="img/testimonial-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
+                <img src="aa.jpg" class="testimonial-img" alt="">
+                <h3>Ayush Awasthi</h3>
+                <h4>Digital Analyst</h4>
                 <p>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                  Prabhjot Singh is a wonderful, talented, intuitive and inspiring person. He will
+trick you, click you and help you just to take out what you need to have in you.
+I have worked on multiple projects with him in past 3 years. And perhaps the
+most important thing is that I now consider him to be a friend. Prabhjot really
+cares about me and others.
+You’ll love working with him!
                 </p>
               </div>
     
               <div class="testimonial-item">
-                <img src="img/testimonial-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
+                <img src="IMG_6830.jpg" class="testimonial-img" alt="">
+                <h3>Chandresh</h3>
+                <h4>Owner,Riderz Planet</h4>
                 <p>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                  We worked with the Roots team during Auto Expo 2018. They aligned
+themselves with our goal to perform a small street play, 'Sadak Paar' in the
+expo arena to spread awareness for road safety and avoiding road rash. The
+entire team worked with great dedication and gained huge applause and
+appreciation. We are extremely grateful to them for arranging a meaningful
+play within a short time span and delivering with high professionalism. A
+special thanks to Prabhjot for all the commendable efforts.
                 </p>
               </div>
     
               <div class="testimonial-item">
-                <img src="img/testimonial-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
+                <img src="nn.jpg" class="testimonial-img" alt="">
+                <h3>Nimish Nanda</h3>
+                <h4>Theatre Student</h4>
                 <p>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                  Since the inception of my professional theatre career, Prabhjot Sir has always been there as friend, guide and trainer. Through various workshops, discussions and informal conversations, he has imparted his knowledge and artistically empowered many innumerable people, including me. He knows how to unclutter the complex theatrical concepts and make the learners understand them in simpler terms. The passion with which he is working rigorously to make theatre accesible to everyone is commendable!
+The theatricality in his personality and performativity in his actions make him a complete package of theatrical expertise.
                 </p>
               </div>
     
-              <div class="testimonial-item">
-                <img src="img/testimonial-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-                <p>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                </p>
-              </div>
+              
 
             </div>
 
@@ -703,51 +644,151 @@ Theatre underwent a $46.5 million building renovation in 2014-2015 season, the f
 
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="client-logo">
-              <img src="img/clients/client-1.png" class="img-fluid" alt="">
+              <img src="bl/ey.png" title="Ernst & Young" data-placement="bottom" data-toggle="tooltip" alt="Ernst & Young" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+          
+         
+        
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="bl/ge.jpg" title="General Electronics" data-placement="bottom" data-toggle="tooltip" alt="General Electronics" class="img-fluids d-block mx-auto">
             </div>
           </div>
           
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="client-logo">
-              <img src="img/clients/client-2.png" class="img-fluid" alt="">
+              <img src="bl/wizcraft.jpg" title="Wizcraft" data-placement="bottom" data-toggle="tooltip" alt="Wizcraft" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="bl1/inc.jpeg" title="Indian National Congress" data-placement="bottom" data-toggle="tooltip" alt="INC" class="img-fluids d-block mx-auto">
             </div>
           </div>
         
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="client-logo">
-              <img src="img/clients/client-3.png" class="img-fluid" alt="">
+             <img src="bl/sharda.png" title="Sharda University" data-placement="bottom" data-toggle="tooltip" alt="Sharda University" class="img-fluids d-block mx-auto">
             </div>
           </div>
           
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="client-logo">
-              <img src="img/clients/client-4.png" class="img-fluid" alt="">
+              <img src="bl1/ba.jpg" title="Bajaj  Allianz" data-placement="bottom" data-toggle="tooltip" alt="Bajaj  Allianz" class="img-fluids d-block mx-auto">
             </div>
           </div>
           
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="client-logo">
-              <img src="img/clients/client-5.png" class="img-fluid" alt="">
+              <img src="bl1/pwc.jpg" title="PWC" data-placement="bottom" data-toggle="tooltip" alt="PWC" class="img-fluids d-block mx-auto">
             </div>
           </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="bl1/c.jpg" title="The University of Chicago" data-placement="bottom" data-toggle="tooltip" alt="The University of Chicago" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="bl1/dream11.jpg" title="Dream11" data-placement="bottom" data-toggle="tooltip" alt="Dream11" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="bl1/flipkart.jpg" title="Flipkart" data-placement="bottom" data-toggle="tooltip" alt="Flipkart" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="bl/tfi.jpg" title="Teach for India" data-placement="bottom" data-toggle="tooltip" alt="Teach for India" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="bl/genpact.png" title="Genpact" data-placement="bottom" data-toggle="tooltip" alt="Genpact" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="bl/du.jpg" title="Delhi University" data-placement="bottom" data-toggle="tooltip" alt="Delhi University" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+           <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="bl1/ggsipu.jpg" title="GGSIPU" data-placement="bottom" data-toggle="tooltip" alt="GGSIPU" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+           <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="bl/education tree.jpg" title="Education Tree" data-placement="bottom" data-toggle="tooltip" alt="Education Tree" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+           <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="bl1/atelier.jpg" title="Atelier School  of Dramatic Arts" data-placement="bottom" data-toggle="tooltip" alt="Atelier School  of Dramatic Arts" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+           <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="bl/blueprint.jpg" title="Blueprint Publications" data-placement="bottom" data-toggle="tooltip" alt="Blueprint Publications" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+             <img src="bl/cambridge.jpg" title="Cambridge School" data-placement="bottom" data-toggle="tooltip" alt="Cambridge School" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+           <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+             <img src="bl/pricemap.jpg" title="Pricemap" data-placement="bottom" data-toggle="tooltip" alt="Pricemap" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+           <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+             <img src="bl1/iitk.jpg" title="Indian Institute of Technology Kanpur" data-placement="bottom" data-toggle="tooltip" alt="Indian Institute of Technology Kanpur" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+           <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+             <img src="bl1/kurkure.jpg" title="Kurkure" data-placement="bottom" data-toggle="tooltip" alt="Kurkure" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+           <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+             <img src="bl1/modrn era.jpg" title="Modern Era Convent School" data-placement="bottom" data-toggle="tooltip" alt="Modern Era Convent School" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+           <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+             <img src="bl1/rp.jpg" title="Riderz Planet" data-placement="bottom" data-toggle="tooltip" alt="Riderz Planet" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+             <img src="bl1/trc.jpg" title="The Roots Casting" data-placement="bottom" data-toggle="tooltip" alt="The Roots Casting" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+             <img src="bl1/spf.jpeg" title="Short Play Festival" data-placement="bottom" data-toggle="tooltip" alt="Short Play Festival" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="bl1/upc.jpg" title="Universities Performers Community" data-placement="bottom" data-toggle="tooltip" alt="Universities Performers Community" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="bl1/lt.jpg" title="Let's Talk" data-placement="bottom" data-toggle="tooltip" alt="Let's Talk" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+         
         
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="img/clients/client-6.png" class="img-fluid" alt="">
-            </div>
-          </div>
           
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="img/clients/client-7.png" class="img-fluid" alt="">
-            </div>
-          </div>
-          
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="img/clients/client-8.png" class="img-fluid" alt="">
-            </div>
-          </div>
+
 
         </div>
 
@@ -769,7 +810,7 @@ Theatre underwent a $46.5 million building renovation in 2014-2015 season, the f
 
           <div class="col-lg-6">
             <div class="map mb-4 mb-lg-0">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 312px;" allowfullscreen></iframe>
+             
             </div>
           </div>
 
@@ -847,11 +888,11 @@ Theatre underwent a $46.5 million building renovation in 2014-2015 season, the f
             
 
             <div class="social-links">
-              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+              <a href="https://twitter.com/therootsindia_?s=08" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="https://www.facebook.com/therootsindiaofficial" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="https://www.instagram.com/therootsindiaofficial/" class="instagram"><i class="fa fa-instagram"></i></a>
+              
+              <a href="https://www.youtube.com/channel/UCHprYSRCTY-Y9ZUIolzuLxA?&ab_channel=TheRootsSociety" class="youtube"><i class="fa fa-youtube"></i></a>
             </div>
 
           </div>
