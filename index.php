@@ -690,11 +690,13 @@ The theatricality in his personality and performativity in his actions make him 
               <img src="bl1/c.jpg" title="The University of Chicago" data-placement="bottom" data-toggle="tooltip" alt="The University of Chicago" class="img-fluids d-block mx-auto">
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-xs-6">
+        
+           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="client-logo">
-              <img src="bl1/dream11.jpg" title="Dream11" data-placement="bottom" data-toggle="tooltip" alt="Dream11" class="img-fluids d-block mx-auto">
+             <img src="bl/cambridge.jpg" title="Cambridge School" data-placement="bottom" data-toggle="tooltip" alt="Cambridge School" class="img-fluids d-block mx-auto">
             </div>
           </div>
+         
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="client-logo">
               <img src="bl1/flipkart.jpg" title="Flipkart" data-placement="bottom" data-toggle="tooltip" alt="Flipkart" class="img-fluids d-block mx-auto">
@@ -735,11 +737,12 @@ The theatricality in his personality and performativity in his actions make him 
               <img src="bl/blueprint.jpg" title="Blueprint Publications" data-placement="bottom" data-toggle="tooltip" alt="Blueprint Publications" class="img-fluids d-block mx-auto">
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="client-logo">
-             <img src="bl/cambridge.jpg" title="Cambridge School" data-placement="bottom" data-toggle="tooltip" alt="Cambridge School" class="img-fluids d-block mx-auto">
+              <img src="bl1/lt.jpg" title="Let's Talk" data-placement="bottom" data-toggle="tooltip" alt="Let's Talk" class="img-fluids d-block mx-auto">
             </div>
           </div>
+         
            <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="client-logo">
              <img src="bl/pricemap.jpg" title="Pricemap" data-placement="bottom" data-toggle="tooltip" alt="Pricemap" class="img-fluids d-block mx-auto">
@@ -780,11 +783,12 @@ The theatricality in his personality and performativity in his actions make him 
               <img src="bl1/upc.jpg" title="Universities Performers Community" data-placement="bottom" data-toggle="tooltip" alt="Universities Performers Community" class="img-fluids d-block mx-auto">
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 col-xs-6">
+           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="client-logo">
-              <img src="bl1/lt.jpg" title="Let's Talk" data-placement="bottom" data-toggle="tooltip" alt="Let's Talk" class="img-fluids d-block mx-auto">
+              <img src="bl1/dream11.jpg" title="Dream11" data-placement="bottom" data-toggle="tooltip" alt="Dream11" class="img-fluids d-block mx-auto">
             </div>
           </div>
+          
          
         
           
@@ -810,7 +814,7 @@ The theatricality in his personality and performativity in his actions make him 
 
           <div class="col-lg-6">
             <div class="map mb-4 mb-lg-0">
-             
+             <!--ANY  PHOTO VIDEO OR LINK-->
             </div>
           </div>
 
