@@ -65,7 +65,7 @@
         <div class="col-sm-12">
           <div class="mb-5 text-center">
             <h2 class="title">Training and Enhancement</h2>
-            <center><img src="13.jpg" height="400px" width="400px"></center>
+            <center><img src="13.jpg" height="400px" width="70%"></center>
           </div>
           <ul id="filter" >
             
@@ -78,12 +78,12 @@
           </ul>
           <ul id="filter" >
             
-            <li><a>Theatre Workshops</a>
+            <li><a onclick="myFunction()">Theatre Workshops</a>
              
 
             </li>
-            <li><a>Liberal Arts</a></li>
-            <li><a >Performance Creation</a></li>
+            <li><a onclick="myFunction1()">Liberal Arts</a></li>
+            <li><a onclick="myFunction2()">Performance Creation</a></li>
           </ul>
           
           <!-- Reference detail-->
@@ -97,10 +97,67 @@
       </div>
     </section>
     <!-- Customers-->
+<div id="myDIV" style="display: none;"> <section>
+   <h2 style="color: black;" ><center>Theatre Workshops</center></h2>
+   <p class="lead">AN INTRODUCTION FOR THE CHILDREN INTO THE WORLD OF THEATRE AND DRAMA IS CRUCIAL. THEREFORE, IN THEATRE WORKSHOPS OUR AIM IS TO WORK ON VARIOUS DRAMATIC ELEMENTS SUCH AS: • MOVEMENT • VOICE • POSTURE • CONCENTRATION • IMPROVISATION • CREATIVE WRITING • STORYTELLING • STAGE FEAR • ACTING SKILLS IMBIBING THE VALUES OF THEATRICS IN A CHILD COMBINING WITH AWARENESS ON SOCIAL ISSUES LEADS TO A CREATIVE RESPONSE. OUR WORKSHOPS ARE STRUCTURED ON A MODULE OF PROVIDING A SPACE OF EXPLORATION TO OUR CHILDREN, WHEREIN THEY ARE PROVIDED AN OPPORTUNITY TO SHOWCASE THEIR LEARNING THROUGH A PERFORMANCE, WHICH IN OUR WORDS IS “LEARNING IN PROGRESS OF A PERFORMANCE”. THIS CONSTANT LEARNING LEADS TO HEALTHY CHANGES IN THE PERSONAL LIFE OF A CHILD, ULTIMATELY RESULTING IN DIFFERENT AND UNEXPECTED RESULTS BENEFITTING HIM/HER.</p>
 
-    <!-- Contact-->
-  
-    <!-- Map-->
+ </section></div>
+ <script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+
+
+
+
+<div id="myDIV2" style="display: none;"> <section>
+   <h2 style="color: black;" ><center>Performance Creation</center></h2>
+   <p class="lead">WE, THE ROOTS INDIA, BELIEVE THAT PERFORMANCE IS AN IMPORTANT PART OF OUR LIFE WHICH SHALL NOT BE NEGLECTED. THIS HAS MOTIVATED US A LOT IN CREATING PERFORMANCES FOR THE EDUCATIONAL INSTITUTIONS. THE GROWTH OF A HUMAN BEING IS NOT RESTRICTED TO A CERTAIN AGE; WE GROW IN EVERY PHASE OF LIFE, WHICH IS WHY IT IS IMPORTANT TO HAVE REGULAR SELF-ASSISTANCE WITH THE HELP OF AN EXPERIENCED PERSON. UNDER PERFORMANCE CREATION, WE WORK ON THE FOLLOWING THINGS: • STREET PLAYS • STAGE PLAYS • MENTORSHIP • DIRECTION • MUSICAL PRODUCTIONS</p>
+
+ </section></div>
+ <script>
+function myFunction2() {
+  var x = document.getElementById("myDIV2");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+
+
+
+
+<div id="myDIV1" style="display: none;"> <section>
+   <h2 style="color: black;" ><center>Liberal Arts</center></h2>
+   <p class="lead">WE, AT THE ROOTS INDIA, BELIEVE THAT A LIBERAL ARTS EDUCATION OFFERS AN EXPANSIVE INTELLECTUAL GROUNDING IN ALL KINDS OF HUMANISTIC INQUIRY. BY EXPLORING ISSUES, IDEAS AND METHODS ACROSS THE HUMANITIES AND THE ARTS, AND THE NATURAL AND SOCIAL SCIENCES, THE STUDENTS LEARN TO READ CRITICALLY, WRITE COGENTLY AND THINK BROADLY. THESE SKILLS ELEVATE THEIR CONVERSATIONS IN THE CLASSROOM AND STRENGTHEN THEIR SOCIAL AND CULTURAL ANALYSIS; IT CULTIVATES THE TOOLS NECESSARY TO ALLOW THEM TO NAVIGATE THE WORLD’S MOST COMPLEX ISSUES. OUR MODULES CHALLENGE THE STUDENTS TO CONSIDER NOT ONLY HOW TO SOLVE PROBLEMS, BUT ALSO TRAIN THEM TO ASK WHICH PROBLEMS TO SOLVE AND WHY, PREPARING THEM FOR POSITIONS OF LEADERSHIP AND A LIFE OF SERVICE TO THE NATION AND ALL OF HUMANITY.</p>
+
+ </section></div>
+ <script>
+function myFunction1() {
+  var x = document.getElementById("myDIV1");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+
+
        
     
     <!-- JavaScript files-->
