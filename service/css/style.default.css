@@ -72,7 +72,7 @@ section {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   line-height: 1.2;
-  color: #555;
+  color:  #D3D3D3;
   margin-top: 20px;
   letter-spacing: 0;
 }
@@ -122,8 +122,7 @@ section {
 nav.navbar {
   padding-top: 0;
   padding-bottom: 0;
-  background: #fff;
-  border-bottom: 1px solid #e6e6e6;
+  background: #161616;
 }
 
 @media (max-width: 991.98px) {
@@ -163,12 +162,11 @@ nav.navbar a.nav-link {
 
 nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
   color: #333;
-  border-top-color: #4fbfa8;
 }
 
 @media (max-width: 1199.98px) {
   nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
-    color: #4fbfa8;
+    
   }
 }
 
@@ -415,8 +413,8 @@ nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
   list-style-type: none;
   font-family: "Roboto Slab", serif;
   margin-bottom: 30px;
-  border-top: solid 1px #4fbfa8;
-  border-bottom: solid 1px #4fbfa8;
+  border-top: solid 1px 	#778899;
+  border-bottom: solid 1px 	#778899;
   margin: 0 10px 20px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -428,7 +426,7 @@ nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
   background: none;
   border: none;
   cursor: pointer;
-  color: #4fbfa8;
+  color:  	#778899;
   outline: none;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -441,7 +439,47 @@ nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
 #filter li.active a, #filter li:hover a {
   color: #fff;
   text-decoration: none;
-  background: #4fbfa8;
+  background: 	#778899;
+}
+
+#filters {
+  text-align: center;
+  margin: 20px 0;
+  padding: 0;
+}
+
+#filters li {
+  display: inline-block;
+  list-style-type: none;
+  font-family: "Roboto Slab", serif;
+  margin-bottom: 30px;
+  border-top: solid 1px   #DCDCDC ;
+  border-bottom: solid 1px  #DCDCDC ;
+  margin: 0 10px 20px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#filters li a {
+  display: inline-block;
+  padding: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color:    #DCDCDC ;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#filters li.active, #filters li:hover {
+  border: none;
+}
+
+#filters li.active a, #filters li:hover a {
+  color: #000000;
+  text-decoration: none;
+  background:   #DCDCDC ;
 }
 
 .reference {
@@ -700,6 +738,7 @@ STYLE SWITCHER FOR DEMO
   line-height: 1;
   border: 1px solid transparent;
   border-radius: 0rem;
+  color: #DCDCDC;
 }
 
 .navbar-light .navbar-brand {
@@ -1434,16 +1473,16 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  background-color: #fff;
+  background-color: #161616;
 }
 
 a {
-  color: #4fbfa8;
+  color:  #DCDCDC;
   text-decoration: none;
 }
 
 a:hover, a:focus {
-  color: #348e7b;
+  color:  #808080;
   text-decoration: underline;
 }
 
