@@ -45,7 +45,7 @@
   <meta content="" name="description">
 
   <!-- Favicons -->
-  <link href="logo.jpg" rel="icon">
+  <link href="logo.png" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
