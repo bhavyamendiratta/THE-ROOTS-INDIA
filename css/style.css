@@ -1,11 +1,10 @@
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 
 body {
   background: #404040;
-  color: #444;
+  color: #fff;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -593,7 +592,7 @@ h6 {
   padding: 30px;
   position: relative;
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: 50%;
   margin: 0 10px 40px 10px;
   background: #fff;
   box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);

@@ -60,7 +60,7 @@
   <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-
+          
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
    <style type="text/css">
@@ -298,11 +298,13 @@
       
     </div>
   </header><!-- #header -->
+   <body id="page">
+     
 
   <!--==========================
     Intro Section
   ============================-->
-  <section id="intro" class="clearfix">
+ <section id="intro" class="clearfix">
     <div class="container">
 
       <div class="intro-img">
@@ -329,7 +331,7 @@
       <div class="container">
 
         <header class="section-header">
-          <h3>Welcome</h3>
+          <h3>About Us</h3>
           
         </header>
 
@@ -346,7 +348,7 @@
           </div>
 
           <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
-            <img src="logo.png" class="img-fluid" alt="" height="300px" width="300px">
+            <img src="logo.png" class="img-fluid" alt="" height="400px" width="400px">
           </div><!--
         </div>
 
@@ -402,26 +404,26 @@
         <div class="row">
 
           <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-duration="1.4s"><a href="service/tre.html"><div>
-            <div class="box" style="background: url(tre.jpg) center center no-repeat; background-size: cover;">
-            </div><div style="margin-top: -30px; color:#A0A0A0;font-size: 20px;"><b><center>Training and Enhancement</center></b></div></div></a>
+            <div class="box" style="background: url(IMG_7395.jpg) center center no-repeat; background-size: cover;">
+            </div><div style="margin-top: -30px; color:#fff;font-size: 30px;z-index:1000;font-weight:bold;"><b><center>Training and Enhancement</center></b></div></div></a>
           </div>
           <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-duration="1.4s"><a href="service/tas.html"><div>
             <div class="box" style="background: url(tas.png) center center no-repeat; background-size: cover;">
               
-            </div><div style="margin-top: -30px; color:#A0A0A0;font-size: 20px;"><b><center>Theatre and Acting Studio</center></b></div></div></a>
+            </div><div style="margin-top: -30px; color:#fff;font-size: 30px;z-index:1000;font-weight:bold;"><b><center>Theatre and Acting Studio</center></b></div></div></a>
           </div>
           
 
           <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s"><a href="service/ccs.html"><div>
-            <div class="box" style="background: url(ccs.png) center center no-repeat; background-size: cover;">
+            <div class="box" style="background: url(IMG_7394.jpg) center center no-repeat; background-size: cover;">
               
-            </div><div style="margin-top: -30px; color:#A0A0A0;font-size: 20px;"><b><center>Creative Content Studio</center></b></div></div></a>
+            </div><div style="margin-top: -30px; color:#fff;font-size: 30px;z-index:1000;font-weight:bold;"><b><center>Creative Content Studio</center></b></div></div></a>
           
           </div>
           <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s"><a href="service/pa.html"><div>
-            <div class="box" style="background: url(pa.jpg) center center no-repeat; background-size: cover;">
+            <div class="box" style="background: url(IMG_7398.jpg) center center no-repeat; background-size: cover;">
               
-            </div><div style="margin-top: -30px; color:#A0A0A0;font-size: 20px;"><b><center>Platform for Artists</center></b></div></div></a>
+            </div><div style="margin-top: -30px; color:#fff;font-size: 30px;z-index:1000;font-weight:bold;"><b><center>Platform for Artists</center></b></div></div></a>
           
           </div>
 
@@ -429,13 +431,13 @@
             <div class="box" style="background: url(ihp.jpg) center center no-repeat; background-size: cover;">
               
             </div>
-          <div style="margin-top: -30px; color:#A0A0A0;font-size: 20px;"><b><center>In-house Productions</center></b></div></div></a>
+          <div style="margin-top: -30px; color:#fff;font-size: 30px;z-index:1000;font-weight:bold;"><b><center>In-house Productions</center></b></div></div></a>
           </div>
           <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s"><a href="service/trc.html"><div>
-            <div class="box" style="background: url(trc.jpg) center center no-repeat; background-size: cover;">
+            <div class="box" style="background: url(IMG_7399.jpeg) center center no-repeat; background-size: cover;">
               
             </div>
-          <div style="margin-top: -30px; color:#A0A0A0;font-size: 20px;"><b><center>The Roots Casting</center></b></div></div></a>
+          <div style="margin-top: -30px; color:#fff;font-size: 30px;z-index:1000;font-weight:bold;"><b><center>The Roots Casting</center></b></div></div></a>
           
 
         </div>
@@ -459,8 +461,8 @@
     
               <div class="testimonial-item">
                 <img src="ss.jpeg" class="testimonial-img" alt="">
-                <h3>Sania Saifi</h3>
-                <h4>Poet and Author</h4>
+                <h2>Sania Saifi</h2>
+                <h3>Poet and Author</h3>
                 <p>
                   Learning from Prabhjot Sir has been so much fun and creative since the very
 beginning. He gives much space to experiments that the artist working with
@@ -680,12 +682,226 @@ The theatricality in his personality and performativity in his actions make him 
               <img src="bl1/dream11.jpg" title="Dream11" data-placement="bottom" data-toggle="tooltip" alt="Dream11" class="img-fluids d-block mx-auto">
             </div>
           </div>
-          
-         
-        
-          
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="fl/1 (1).gif" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+           <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="fl/1 (1).jpeg" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="fl/1 (1).jpg" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="fl/1 (2).jpg" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="fl/1 (2).png" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="fl/1 (3).jpg" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="fl/1 (1).png" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+<div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="fl/1 (4).jpg" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="fl/1 (4).png" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="fl/1 (5).jpg" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="fl/1 (5).png" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="fl/1 (6).jpg" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="fl/1 (7).jpg" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="fl/1 (8).jpg" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="fl/1 (9).jpg" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="fl/1 (10).jpg" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+<div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="fl/1 (11).jpg" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="fl/1 (12).jpg" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+<div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="fl/1 (13).jpg" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+<div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="fl/1 (14).jpg" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="fl/1 (15).jpg" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="fl/1 (16).jpg" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="fl/1 (17).jpg" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+<div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="fl/1 (18).jpg" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+<div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="fl/1 (19).jpg" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="fl/1 (20).jpg" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
 
+<div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="fl/1 (22).jpg" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+<div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="fl/1 (23).jpg" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+<div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="fl/1 (24).jpg" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
 
+<div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="fl/1 (25).jpg" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+<div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="fl/1 (26).jpg" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+
+<div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="fl/1 (27).jpg" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+<div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="fl/1 (28).jpg" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+<div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="fl/1 (29).jpg" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="fl/1 (30).jpg" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="fl/1 (31).jpg" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+<div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="fl/1 (32).jpg" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="fl/1 (33).jpg" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+<div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="fl/1 (34).jpg" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+
+<div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="fl/1 (35).jpg" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+<div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="fl/1 (36).jpg" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+<div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="fl/1 (37).jpg" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
+<div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="fl/1 (38).jpg" title="" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluids d-block mx-auto">
+            </div>
+          </div>
         </div>
 
       </div>
@@ -1132,20 +1348,7 @@ Theatre underwent a $46.5 million building renovation in 2014-2015 season, the f
           </div>
 
           <div class="col-lg-6">
-            <div class="row">
-              <div class="col-md-5 info">
-                <i class="ion-ios-location-outline"></i>
-                <p>New Delhi, India</p>
-              </div>
-              <div class="col-md-4 info">
-                <i class="ion-ios-email-outline"></i>
-                <p> therootssociety@gmail.com</p>
-              </div>
-              <div class="col-md-3 info">
-                <i class="ion-ios-telephone-outline"></i>
-                <p>9654773334</p>
-              </div>
-            </div>
+            
 
             <div class="form">
               <div id="sendmessage">Your message has been sent. Thank you!</div>
