@@ -475,8 +475,8 @@ things.
     
               <div class="testimonial-item">
                 <img src="aa.jpg" class="testimonial-img" alt="">
-                <h3>Ayush Awasthi</h3>
-                <h4>Digital Analyst</h4>
+                <h2>Ayush Awasthi</h2>
+                <h3>Digital Analyst</h3>
                 <p>
                   Prabhjot Singh is a wonderful, talented, intuitive and inspiring person. He will
 trick you, click you and help you just to take out what you need to have in you.
@@ -489,8 +489,8 @@ You’ll love working with him!
     
               <div class="testimonial-item">
                 <img src="IMG_6830.jpg" class="testimonial-img" alt="">
-                <h3>Chandresh</h3>
-                <h4>Owner,Riderz Planet</h4>
+                <h2>Chandresh</h2>
+                <h3>Owner,Riderz Planet</h3>
                 <p>
                   We worked with the Roots team during Auto Expo 2018. They aligned
 themselves with our goal to perform a small street play, 'Sadak Paar' in the
@@ -504,8 +504,8 @@ special thanks to Prabhjot for all the commendable efforts.
     
               <div class="testimonial-item">
                 <img src="nn.jpg" class="testimonial-img" alt="">
-                <h3>Nimish Nanda</h3>
-                <h4>Theatre Student</h4>
+                <h2>Nimish Nanda</h2>
+                <h3>Theatre Student</h3>
                 <p>
                   Since the inception of my professional theatre career, Prabhjot Sir has always been there as friend, guide and trainer. Through various workshops, discussions and informal conversations, he has imparted his knowledge and artistically empowered many innumerable people, including me. He knows how to unclutter the complex theatrical concepts and make the learners understand them in simpler terms. The passion with which he is working rigorously to make theatre accesible to everyone is commendable!
 The theatricality in his personality and performativity in his actions make him a complete package of theatrical expertise.
@@ -1210,7 +1210,7 @@ Theatre underwent a $46.5 million building renovation in 2014-2015 season, the f
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
+     <!--     <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
               <img src="website/med/4.jpeg" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -1222,7 +1222,7 @@ Theatre underwent a $46.5 million building renovation in 2014-2015 season, the f
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
           
 
           
