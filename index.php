@@ -286,7 +286,7 @@
           <li><a href="#services"><b>Work</b></a>
            
           </li>
-         <li><a href="service/index1.html">Events</a></li>
+         <li><a href="service/index1.html"><b>Events</b></a></li>
           <li><a href="journey.html"><b>Journey</b></a></li>
           
           <li><a href="#portfolio"><b>Gallery</b></a></li>
