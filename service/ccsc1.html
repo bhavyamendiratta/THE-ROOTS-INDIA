@@ -77,13 +77,13 @@
           </ul>
              <ul id="filters" >
             
-            <li><a onclick="myFunction()">Company Research</a>
+            <li class="array"><a  href="#myDIV0" onclick="myFunction(0)">Company Research</a>
              
 
             </li>
-            <li><a onclick="myFunction1()">Consumer Research</a></li>
-            <li><a onclick="myFunction2()">Competitor Research</a></li>
-            <li><a onclick="myFunction3()">Content Analysis</a></li>
+            <li class="array"><a href="#myDIV1" onclick="myFunction(1)">Consumer Research</a></li>
+            <li class="array"><a  href="#myDIV2" onclick="myFunction(2)">Competitor Research</a></li>
+            <li class="array"><a  href="#myDIV3" onclick="myFunction(3)">Content Analysis</a></li>
           </ul>
           <!-- Reference detail-->
           <div id="references-masonry" data-animate="fadeInUp">
@@ -101,19 +101,28 @@
     </section>
     <!-- Customers-->
 
-<div id="myDIV" style="display: none;"> <section>
+<div id="myDIV0" style="display: none;"> <section>
    <h2 style="color:#D3D3D3;" ><center>Company Research</center></h2>
    <p class="lead" style=" margin-right: 12%;margin-left: 12%;">During the company research phase, we need to uncover the brand's values and core strengths. Some questions we want the brand to answer are: what is your company best at and what does it stand for? Besides making money, Why are you in business?</p>
 
  </section></div>
  <script>
-function myFunction() {
-  var x = document.getElementById("myDIV");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
+function myFunction(n) {
+  var x = document.getElementsByClassName("array");
+  var len = x.length;
+  var y = "myDIV";
+  for(var i=0;i<len;i++)
+  {
+        if(i==n){
+           var z= document.getElementById(y+i);
+            z.style.display = "block";
+          }
+        else{
+          var z= document.getElementById(y+i);
+          z.style.display = "none";
+        }
   }
+ 
 }
 </script>
 

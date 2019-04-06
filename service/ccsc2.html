@@ -78,14 +78,14 @@
           </ul>
              <ul id="filters" >
             
-            <li><a onclick="myFunction()">Creative Copywriting</a>
+            <li class="array"><a onclick="myFunction(0)">Creative Copywriting</a>
              
 
             </li>
-            <li><a onclick="myFunction1()">Video Content Creation</a></li>
-            <li><a onclick="myFunction2()">Graphic Content</a></li>
-            <li><a onclick="myFunction3()">Wall Quotations and Painting</a></li>
-            <li><a onclick="myFunction4()">Intellectual Properties</a></li>
+            <li class="array"><a href="#myDIV0" onclick="myFunction(1)">Video Content Creation</a></li>
+            <li class="array"><a href="#myDIV1" onclick="myFunction(2)">Graphic Content</a></li>
+            <li class="array"><a href="#myDIV2" onclick="myFunction(3)">Wall Quotations and Painting</a></li>
+            <li class="array"><a href="#myDIV3" onclick="myFunction(4)">Intellectual Properties</a></li>
           </ul>
        
           <!-- Reference detail-->
@@ -114,13 +114,22 @@ We develop original written, visual, video and social assets that align with the
 
  </section></div>
  <script>
-function myFunction() {
-  var x = document.getElementById("myDIV");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
+function myFunction(n) {
+  var x = document.getElementsByClassName("array");
+  var len = x.length;
+  var y = "myDIV";
+  for(var i=0;i<len;i++)
+  {
+        if(i==n){
+           var z= document.getElementById(y+i);
+            z.style.display = "block";
+          }
+        else{
+          var z= document.getElementById(y+i);
+          z.style.display = "none";
+        }
   }
+ 
 }
 </script>
 
