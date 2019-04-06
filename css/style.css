@@ -3,7 +3,7 @@
 --------------------------------------------------------------*/
 
 body {
-  background: #404040;
+  background: #161616;
   color: #A0A0A0;
   font-size: 20px;
   font-family: "Open Sans", sans-serif;
@@ -1179,6 +1179,18 @@ h6 {
 
 #contact .form button[type="submit"]:hover {
   background: #0067d5;
+  cursor: pointer;
+}
+button[type="submit"]{
+    background: #A0A0A0;
+  border: 0;
+  border-radius: 20px;
+  padding: 8px 30px;
+  color: #fff;
+  transition: 0.3s;
+}
+button[type="submit"]:hover{
+    background: #0067d5;
   cursor: pointer;
 }
 

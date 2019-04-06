@@ -67,8 +67,6 @@ section {
   padding: 10px 0;
   margin-bottom: 44px;
   text-align: center;
-  border-bottom: solid 1px #ccc;
-  border-top: solid 1px #ccc;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   line-height: 1.2;
@@ -1538,6 +1536,7 @@ h6,
 .lead {
   font-size: 1.4375rem;
   font-weight: 300;
+  color: white;
 }
 
 .display-1 {
